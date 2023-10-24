@@ -192,6 +192,7 @@ fun BottomMenuItem(
                     else
                         Color.Transparent
                 )
+                .padding(10.dp)
         ) {
             Icon(
                 painter = painterResource(id = item.iconId),
